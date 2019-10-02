@@ -1,0 +1,50 @@
+header {
+  height: 75px;
+  background-color: green;
+}
+
+header > div {
+  margin: 0 auto;
+  align-items: center;
+  height: 75px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: orange;
+}
+
+.main-container {
+  height: 1025px;
+  background-color: dodgerblue;
+}
+
+.game-container {
+  height: 400px;
+  width: 720px;
+  background-color: white;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+.start-button {
+  height: 50px;
+  width: 150px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  float: left;
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  margin: 5px 5px 10px 10px;
+  background-color: white;
+
+  -webkit-box-shadow: 3px 5px 9px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 5px 9px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 5px 9px 3px rgba(0, 0, 0, 0.75);
+}
